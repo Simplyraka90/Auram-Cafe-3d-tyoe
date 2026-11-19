@@ -1,0 +1,4 @@
+import ThreeDessertFeature from '@/components/ThreeDessertFeature';
+import MotionReveal from '@/components/MotionReveal';
+import Hero from '@/components/Hero';import Highlights from '@/components/Highlights';import About from '@/components/About';import MenuSection from '@/components/MenuSection';import BookingBanner from '@/components/BookingBanner';import GallerySection from '@/components/GallerySection';import Testimonials from '@/components/Testimonials';import ContactSection from '@/components/ContactSection';
+export default function Home(){return <main><Hero/><MotionReveal><Highlights/></MotionReveal><MotionReveal><About/></MotionReveal><MotionReveal><MenuSection limit={6}/></MotionReveal><ThreeDessertFeature/><MotionReveal><BookingBanner/></MotionReveal><MotionReveal><GallerySection limit={4}/></MotionReveal><MotionReveal><Testimonials/></MotionReveal><MotionReveal><ContactSection/></MotionReveal></main>}
